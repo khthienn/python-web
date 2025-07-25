@@ -1,0 +1,266 @@
+{% extends "main.html" %}
+{% load cart_tag %}
+{% load static %}
+{% block main %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .quantity-input {
+            width: 50px;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+        .quantity-btn {
+            border: 1px solid #dee2e6;
+            background: #fff;
+            padding: 0 8px;
+        }
+        .product-image {
+            width: 100px;
+            height: auto;
+        }
+        .action-buttons {
+            white-space: nowrap;
+        }
+        .table > :not(caption) > * > * {
+            vertical-align: middle;
+        }
+        th {
+            font-size: 24px; /* Tăng kích thước chữ */
+            font-family: 'Dancing Script', cursive;
+        }
+        h5 {
+          font-family: 'Dancing Script', cursive;
+        }
+        .form-select {
+            background-image: none !important;
+        }
+        #alert-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1050;
+            width: 300px;
+          }
+          
+          .custom-alert {
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+          }
+          
+          .fade-out {
+            opacity: 0;
+            transform: translateY(-20px);
+          }
+    </style>
+</head>
+<body>
+   <div id="alert-container">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible fade show custom-alert" role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+      </div>
+    <div class="container py-5">
+        <h2 class="mb-4">Sản phẩm bạn chọn </h2>
+        <form method="POST" action="{% url 'checkout' %}">
+          {% csrf_token %}
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="table-light">
+                    <tr>
+                        <th>Ảnh</th>
+                        <th>Tên sản phẩm </th>
+                        <th>Giá </th>
+                        <th>Số lượng</th>
+                        <th>Tổng tiền</th>
+                        <th>Chức năng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for key, value in request.session.cart.items %}
+                    <tr class="cart-item" data-price="{{ value.price }}">
+                      <td>
+                        <img src="{{ value.image }}" alt="{{ value.name }}" class="product-image">
+                      </td>
+                      <td>{{ value.name }}</td>
+                      <td class="unit-price">{{ value.price }}.000 VND</td>
+                      <td>
+                        <div class="input-group" style="width: 120px;">
+                            <a href="{% url 'item_decrement' key %}" class="btn btn-outline-dark">-</a>
+                            <input type="text" class="form-control text-center border-dark"  value="{{ value.quantity }}" readonly>
+                            <a href="{% url 'item_increment' key %}" class="btn btn-outline-dark">+</a>
+                        </div>
+                    </td>
+                     
+                      <td class="subtotal">{{ value.price|multiply:value.quantity }}00 VND</td>
+                      <td class="action-buttons">
+                        <a href="" class="btn btn-sm btn-outline-secondary me-1">
+                            <i class="bi bi-pencil"></i>
+                          </a>
+                          <a href="{% url 'item_clear' key %}" class="btn btn-sm btn-outline-danger">
+                            <i class="bi bi-x"></i>
+                          </a>
+                      </td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+            </table>
+        </div>
+        <div class="container mt-4">
+              <h5 class="mb-4">THÔNG TIN KHÁCH HÀNG</h5>
+              <div class="row mb-3">
+                  <div class="col-md-6">
+                      <input type="text" name="name" class="form-control" placeholder="Họ và tên" required>
+                  </div>
+                  <div class="col-md-6">
+                      <input type="tel" name="phone" class="form-control" placeholder="Số điện thoại" required>
+                  </div>
+              </div>
+      
+              <div class="row mb-3">
+                <div class="col-md-6">
+                    <select class="form-select" name="province" id="province" style="overflow-y: scroll; max-height: 200px;" required>
+                        <option selected>Thái Nguyên</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-select" name="district" id="district" disabled required>
+                        <option selected>Chọn quận/huyện</option>
+                    </select>
+                </div>
+            </div>
+              <div class="mb-3">
+                  <input type="text" name="address" class="form-control" placeholder="Nhập địa chỉ" required>
+              </div>
+      
+              <div class="mb-4">
+                  <textarea class="form-control" name="note" rows="4" placeholder="Ghi chú ( không bắt buộc )"></textarea>
+              </div>
+      
+              <h5 class="mb-3">PHƯƠNG THỨC THANH TOÁN</h5>
+              
+              <div class="mb-3">
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="payment_method" id="cashPayment" value="cash" checked onchange="toggleQRCode()">
+                    <label class="form-check-label" for="cashPayment">
+                        Thanh toán tiền mặt khi nhận hàng
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="radio" name="payment_method" id="qrPayment" value="qr" onchange="toggleQRCode()">
+                  <label class="form-check-label" for="qrPayment">
+                    Chuyển khoản QR
+                  </label>
+                </div>
+              
+                <div id="qrCodeContainer" style="display: none;">
+                  <img src="{% static 'images/qr.jpg' %}" alt="QR Code" class="ms-2" style="width: 200px; height: 200px;">
+                </div>
+              </div>
+      
+              <div class="mb-4">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="terms">
+                      <label class="form-check-label" for="terms">
+                          Bằng cách đặt hàng, bạn đồng ý với <a href="#" class="text-primary">Điều khoản sử dụng</a>
+                      </label>
+                  </div>
+              </div>
+      
+              <button type="submit" class="btn btn-primary w-100 py-2">GỬI ĐƠN HÀNG >></button>
+          </form>
+      </div>
+        <div class="row mt-4">
+            <div class="col-12 d-flex justify-content-between">
+                <a href="{% url 'menu' %}"><button class="btn btn-danger">Tiếp tục mua hàng</button></a>
+                <a href="{% url 'cart_clear' %}" class="btn btn-primary">Xoá giỏ hàng</a>
+               
+            </div>
+        </div>
+    </div>
+      <script>
+        // Tải dữ liệu tỉnh/thành và quận/huyện từ file JSON
+        const provincesDataUrl = "/static/vietnam_provinces.json"; // Đường dẫn đến file provinces.json
+    
+        fetch(provincesDataUrl)
+            .then(response => response.json())
+            .then(data => {
+                const provinceSelect = document.getElementById('province');
+                const districtSelect = document.getElementById('district');
+    
+                // Thêm danh sách tỉnh/thành phố vào dropdown
+                for (const province in data) {
+                    const option = document.createElement('option');
+                    option.value = province;
+                    option.textContent = province;
+                    provinceSelect.appendChild(option);
+                }
+    
+                // Lắng nghe sự kiện thay đổi tỉnh/thành phố
+                provinceSelect.addEventListener('change', () => {
+                    const selectedProvince = provinceSelect.value;
+                    const districts = data[selectedProvince];
+    
+                    // Xóa danh sách quận/huyện cũ và kích hoạt lại dropdown
+                    districtSelect.innerHTML = '<option value="" disabled selected>Chọn quận/huyện</option>';
+    
+                    // Thêm danh sách quận/huyện mới
+                    districts.forEach(district => {
+                        const option = document.createElement('option');
+                        option.value = district;
+                        option.textContent = district;
+                        districtSelect.appendChild(option);
+                    });
+    
+                    // Hiển thị dropdown quận/huyện khi có dữ liệu
+                    districtSelect.disabled = districts.length === 0;
+                });
+    
+                // Thiết lập quận/huyện mặc định nếu có
+                const defaultProvince = 'Thái Nguyên'; // Ví dụ tỉnh mặc định
+                provinceSelect.value = defaultProvince;
+                const districts = data[defaultProvince];
+    
+                // Thêm danh sách quận/huyện cho tỉnh mặc định
+                districts.forEach(district => {
+                    const option = document.createElement('option');
+                    option.value = district;
+                    option.textContent = district;
+                    districtSelect.appendChild(option);
+                });
+    
+                // Kích hoạt quận/huyện nếu có dữ liệu
+                districtSelect.disabled = districts.length === 0;
+            })
+            .catch(error => console.error('Lỗi tải dữ liệu:', error));
+    </script>
+    <script>
+        // Hàm sẽ kiểm tra trạng thái của radio và hiển thị/ẩn ảnh QR
+        function toggleQRCode() {
+          var qrImageContainer = document.getElementById("qrCodeContainer");
+          var isQRSelected = document.getElementById("qrPayment").checked;
+          qrImageContainer.style.display = isQRSelected ? "block" : "none";
+        }
+      
+        // Gọi hàm để kiểm tra trạng thái ban đầu
+        toggleQRCode();
+      </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          setTimeout(function () {
+              let alerts = document.querySelectorAll(".custom-alert");
+              alerts.forEach(alert => {
+                  alert.classList.add("fade-out");
+                  setTimeout(() => alert.remove(), 500); // Xóa sau khi hiệu ứng chạy xong
+              });
+          }, 3000);
+      });
+    </script>
+       <!-- Bootstrap Bundle with Popper -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+       <!-- Bootstrap Icons -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+{% endblock main %}

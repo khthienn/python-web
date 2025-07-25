@@ -1,0 +1,109 @@
+{% extends "main.html" %}
+
+{% block class %}class="sub_page"{% endblock class %}
+{% block menu_status %}active{% endblock menu_status %}
+{% load static %}
+
+{% block main %}
+<style>
+  #alert-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+  width: 300px;
+}
+
+.custom-alert {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+</style>
+
+  <!-- food section -->
+
+  <section class="food_section layout_padding-bottom">
+    <div class="container mt-2">
+      <div class="heading_container heading_center">
+        <h2 style="font-size: 3rem;">
+         Sản phẩm
+        </h2>
+      </div>
+      <div id="alert-container">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible fade show custom-alert" role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+      </div>
+      <ul class="filters_menu">
+        <li class="active" data-filter="*">All</li>
+        {% for i in list %}
+        <li data-filter=".{{i.Category_name|slugify}}">{{i.Category_name}}</li>
+        {% endfor %}
+      </ul>
+  
+      <div class="filters-content">
+        <div class="row grid">
+          {% for j in items %} 
+          <div class="col-sm-6 col-lg-4 all {{j.Category.Category_name|slugify}}">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="/media/{{j.image}}" alt="{{j.image}}" class="img-fluid w-70"> <!-- 75% width -->
+                </div>
+                <div class="detail-box">
+                  <h5>
+                 {{j.name}}
+                  </h5>
+                  <p>
+                {{j.description}}
+                  </p>
+                  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                    <h6 style="margin: 0; font-size: 16px;">{{ j.price }}.000 VND</h6>
+                    <a href="{% url 'cart_add' j.id %}" style="text-decoration: none;">
+                      <button style="display: flex; align-items: center; gap: 5px; background-color: #ffbe33; color: white; border: none; padding: 8px 12px; border-radius: 5px; cursor: pointer;">
+                        <span>Thêm vào giỏ hàng</span> 
+                         <i class="fa fa-shopping-cart"></i>
+                     </button> 
+                  </a>
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          View More
+        </a>
+      </div>
+    </div>
+  </section>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+          let alerts = document.querySelectorAll(".custom-alert");
+          alerts.forEach(alert => {
+              alert.classList.add("fade-out");
+              setTimeout(() => alert.remove(), 500); // Xóa sau khi hiệu ứng chạy xong
+          });
+      }, 3000);
+  });
+  </script>
+  <!-- end food section -->
+
+
+
+{% endblock main %}
+

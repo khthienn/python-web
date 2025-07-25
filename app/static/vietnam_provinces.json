@@ -1,0 +1,93 @@
+{
+    "Hà Nội": [
+      "Ba Đình", "Hoàn Kiếm", "Tây Hồ", "Cầu Giấy", "Long Biên", "Hai Bà Trưng", "Đống Đa", "Thanh Xuân", "Nam Từ Liêm", "Bắc Từ Liêm", "Hà Đông", "Sơn Tây", "Ba Vì", "Phúc Thọ", "Thạch Thất", "Quốc Oai", "Chương Mỹ", "Đan Phượng", "Hoài Đức", "Mỹ Đức", "Ứng Hòa", "Thanh Oai", "Thường Tín", "Phú Xuyên", "Sóc Sơn", "Mê Linh"
+    ],
+    "Hồ Chí Minh": [
+      "Quận 1", "Quận 2", "Quận 3", "Quận 4", "Quận 5", "Quận 6", "Quận 7", "Quận 8", "Quận 9", "Quận 10", "Quận 11", "Quận 12", "Tân Bình", "Tân Phú", "Bình Tân", "Bình Thạnh", "Gò Vấp", "Phú Nhuận", "Thủ Đức", "Củ Chi", "Hóc Môn", "Bình Chánh", "Nhà Bè", "Cần Giờ"
+    ],
+    "Thái Nguyên": [
+      "Thành phố Thái Nguyên", "Sông Công", "Phổ Yên", "Đồng Hỷ", "Võ Nhai", "Phú Lương", "Đại Từ", "Nguyên Bình", "Tân Cương"
+    ],
+    "Đà Nẵng": [
+      "Quận Hải Châu", "Quận Thanh Khê", "Quận Sơn Trà", "Quận Ngũ Hành Sơn", "Quận Liên Chiểu", "Huyện Hòa Vang", "Huyện Hoàng Sa"
+    ],
+    "Cần Thơ": [
+      "Quận Ninh Kiều", "Quận Cái Răng", "Quận Bình Thủy", "Quận Ô Môn", "Huyện Thới Lai", "Huyện Cờ Đỏ", "Huyện Phong Điền", "Huyện Vĩnh Thạnh"
+    ],
+    "An Giang": [
+      "Thành phố Long Xuyên", "Thành phố Châu Đốc", "Huyện Châu Phú", "Huyện Châu Thành", "Huyện An Phú", "Huyện Tịnh Biên", "Huyện Tri Tôn", "Huyện Phú Tân", "Huyện Thoại Sơn"
+    ],
+    "Bà Rịa - Vũng Tàu": [
+      "Thành phố Vũng Tàu", "Thành phố Bà Rịa", "Huyện Long Điền", "Huyện Xuyên Mộc", "Huyện Tân Thành", "Huyện Đất Đỏ", "Huyện Côn Đảo"
+    ],
+    "Bắc Giang": [
+      "Thành phố Bắc Giang", "Huyện Yên Thế", "Huyện Lạng Giang", "Huyện Việt Yên", "Huyện Tân Yên", "Huyện Hiệp Hòa", "Huyện Lục Nam", "Huyện Lục Ngạn", "Huyện Sơn Động", "Huyện Gia Bình", "Huyện Quế Võ"
+    ],
+    "Bắc Kạn": [
+      "Thành phố Bắc Kạn", "Huyện Ba Bể", "Huyện Bạch Thông", "Huyện Chợ Đồn", "Huyện Chợ Mới", "Huyện Na Rì", "Huyện Pác Nặm"
+    ],
+    "Bạc Liêu": [
+      "Thành phố Bạc Liêu", "Huyện Hòa Bình", "Huyện Phước Long", "Huyện Vĩnh Lợi", "Huyện Đông Hải", "Huyện Giá Rai", "Huyện Hồng Dân", "Huyện Phú Tân"
+    ],
+    "Bình Dương": [
+      "Thành phố Thủ Dầu Một", "Thành phố Dĩ An", "Thành phố Thuận An", "Huyện Bến Cát", "Huyện Dầu Tiếng", "Huyện Phú Giáo", "Huyện Tân Uyên"
+    ],
+    "Bình Phước": [
+      "Thành phố Đồng Xoài", "Thành phố Phước Long", "Huyện Bù Đăng", "Huyện Bù Gia Mập", "Huyện Chơn Thành", "Huyện Đồng Phú", "Huyện Hớn Quản", "Huyện Lộc Ninh"
+    ],
+    "Bình Thuận": [
+      "Thành phố Phan Thiết", "Huyện Hàm Thuận Bắc", "Huyện Hàm Thuận Nam", "Huyện Đức Linh", "Huyện Tánh Linh", "Huyện Phú Quý", "Huyện Tuy Phong", "Huyện Bắc Bình"
+    ],
+    "Cao Bằng": [
+      "Thành phố Cao Bằng", "Huyện Bảo Lạc", "Huyện Bảo Lâm", "Huyện Hòa An", "Huyện Nguyên Bình", "Huyện Phục Hòa", "Huyện Quảng Uyên", "Huyện Thạch An", "Huyện Trùng Khánh"
+    ],
+    "Gia Lai": [
+      "Thành phố Pleiku", "Huyện An Khê", "Huyện Ayun Pa", "Huyện Chư Păh", "Huyện Chư Sê", "Huyện Đức Cơ", "Huyện Ia Grai", "Huyện Kbang", "Huyện Mang Yang", "Huyện Phú Thiện", "Huyện Chư Prông", "Huyện Đak Đoa", "Huyện Krông Pa"
+    ],
+    "Hà Giang": [
+      "Thành phố Hà Giang", "Huyện Bắc Mê", "Huyện Bắc Quang", "Huyện Đồng Văn", "Huyện Hoàng Su Phì", "Huyện Mèo Vạc", "Huyện Quản Bạ", "Huyện Vị Xuyên", "Huyện Xín Mần", "Huyện Yên Minh"
+    ],
+    "Hà Nam": [
+      "Thành phố Phủ Lý", "Huyện Duy Tiên", "Huyện Kim Bảng", "Huyện Lý Nhân", "Huyện Thanh Liêm", "Huyện Bình Lục"
+    ],
+    "Hà Tĩnh": [
+      "Thành phố Hà Tĩnh", "Thị xã Hồng Lĩnh", "Huyện Can Lộc", "Huyện Cẩm Xuyên", "Huyện Đức Thọ", "Huyện Hương Sơn", "Huyện Kỳ Anh", "Huyện Lộc Hà", "Huyện Nghi Xuân", "Huyện Thạch Hà", "Huyện Vũ Quang"
+    ],
+    "Hòa Bình": [
+      "Thành phố Hòa Bình", "Huyện Cao Phong", "Huyện Kim Bôi", "Huyện Lạc Sơn", "Huyện Lạc Thủy", "Huyện Mai Châu", "Huyện Tân Lạc", "Huyện Yên Thủy", "Huyện Đà Bắc"
+    ],
+    "Hưng Yên": [
+      "Thành phố Hưng Yên", "Huyện Ân Thi", "Huyện Bình Giang", "Huyện Khoái Châu", "Huyện Kim Động", "Huyện Mỹ Hào", "Huyện Phù Cừ", "Huyện Tiên Lữ", "Huyện Văn Lâm", "Huyện Văn Giang", "Huyện Yên Mỹ"
+    ],
+    "Khánh Hòa": [
+      "Thành phố Nha Trang", "Thị xã Ninh Hòa", "Huyện Cam Lâm", "Huyện Diên Khánh", "Huyện Khánh Vĩnh", "Huyện Vạn Ninh", "Huyện Khánh Sơn", "Huyện Trường Sa"
+    ],
+    "Kiên Giang": [
+      "Thành phố Rạch Giá", "Thành phố Phú Quốc", "Huyện An Biên", "Huyện An Minh", "Huyện Châu Thành", "Huyện Giang Thành", "Huyện Hòn Đất", "Huyện Kiên Hải", "Huyện Kiên Lương", "Huyện Phú Quốc", "Huyện Tân Hiệp", "Huyện Vĩnh Thuận"
+    ],
+    "Kon Tum": [
+      "Thành phố Kon Tum", "Huyện Đăk Glei", "Huyện Đăk Hà", "Huyện Đăk Tô", "Huyện Kon Plông", "Huyện Kon Rẫy", "Huyện Ngọc Hồi", "Huyện Sa Thầy", "Huyện Tu Mơ Rông"
+    ],
+    "Lai Châu": [
+      "Thành phố Lai Châu", "Huyện Mường Tè", "Huyện Phong Thổ", "Huyện Sìn Hồ", "Huyện Tam Đường", "Huyện Tân Uyên", "Huyện Than Uyên"
+    ],
+    "Lâm Đồng": [
+      "Thành phố Đà Lạt", "Thành phố Bảo Lộc", "Huyện Đạ Huoai", "Huyện Đạ Tẻh", "Huyện Đức Trọng", "Huyện Lạc Dương", "Huyện Lâm Hà", "Huyện Đam Rông", "Huyện Cát Tiên"
+    ],
+    "Lạng Sơn": [
+      "Thành phố Lạng Sơn", "Huyện Bình Gia", "Huyện Cao Lộc", "Huyện Chi Lăng", "Huyện Đình Lập", "Huyện Hữu Lũng", "Huyện Lộc Bình", "Huyện Tràng Định", "Huyện Văn Lãng", "Huyện Văn Quan"
+    ],
+    "Lào Cai": [
+      "Thành phố Lào Cai", "Huyện Bảo Thắng", "Huyện Bảo Yên", "Huyện Cao Sơn", "Huyện Mường Khương", "Huyện Phú Ninh", "Huyện Si Ma Cai", "Huyện Văn Bàn", "Huyện Tằng Loỏng"
+    ],
+    "Nam Định": [
+      "Thành phố Nam Định", "Huyện Giao Thủy", "Huyện Hải Hậu", "Huyện Ý Yên", "Huyện Nam Trực", "Huyện Trực Ninh", "Huyện Vụ Bản", "Huyện Xuân Trường", "Huyện Mỹ Lộc", "Huyện Nghĩa Hưng"
+    ],
+    "Nghệ An": [
+      "Thành phố Vinh", "Huyện Anh Sơn", "Huyện Con Cuông", "Huyện Diễn Châu", "Huyện Đô Lương", "Huyện Hưng Nguyên", "Huyện Kỳ Sơn", "Huyện Nam Đàn", "Huyện Nghi Lộc", "Huyện Quế Phong", "Huyện Quỳ Châu", "Huyện Quỳ Hợp", "Huyện Quỳnh Lưu", "Huyện Tân Kỳ", "Huyện Thanh Chương", "Huyện Thái Hòa", "Huyện Yên Thành"
+    ],
+    "Ninh Bình": [
+      "Thành phố Ninh Bình", "Thành phố Tam Điệp", "Huyện Gia Viễn", "Huyện Hoa Lư", "Huyện Kim Sơn", "Huyện Nho Quan", "Huyện Quỳnh Lưu", "Huyện Yên Khánh"
+    ]
+  }
+  
