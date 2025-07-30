@@ -1,0 +1,2528 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-01-23T03:21:04.906Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "ItemList object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-01-23T03:21:13.545Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "ItemList object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-01-23T03:21:19.522Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "ItemList object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-01-23T03:21:29.299Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "ItemList object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-01-23T03:36:01.122Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Osishi Snack Tôm Cay",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-01-23T03:38:28.838Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Osishi Snack Hành",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-01-23T04:30:53.419Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Osishi Snack Hành",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-01-23T04:30:55.941Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Osishi Snack Tôm Cay",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-01-23T04:31:37.704Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Osishi Snack Hành",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-01-23T04:31:44.192Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Osishi Snack Tôm Cay",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-01-23T06:53:07.951Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Osishi Snack Hành",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-01-23T06:53:30.797Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Osishi Snack Tôm Cay",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-01-23T07:20:08.614Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Bánh quy Socola Oreo vị vani",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-01-23T07:22:42.440Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Bánh quy sữa Cosy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-01-23T07:24:31.290Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Osishi Snack Bắp Ngọt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-01-23T07:26:50.724Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Osishi Snack Bắp Vị Phô Mai",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-01-23T07:28:58.663Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Osishi Snack Bí Đỏ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-01-23T07:31:02.636Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Osishi Snack Cua Vị Xốt Chua Ngọt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-01-23T07:32:45.832Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Osishi Snack Indo chips",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-01-23T07:33:56.507Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Osishi Snack Cua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Item name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-01-23T07:35:02.542Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Osishi Snack Bí Đỏ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-01-23T07:35:47.351Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Osishi Snack Bắp Vị Phô Mai",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-01-23T07:48:51.340Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Osishi Snack Cua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-01-23T07:49:11.446Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Bánh quy Socola Oreo vị vani",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-02-03T02:50:13.213Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Bánh Trứng Tipo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-02-03T02:57:47.024Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Bánh quy bơ Danisa 454g",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-02-03T02:58:43.150Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Bánh quy bơ Danisa 454g",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-02-03T02:59:01.514Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Bánh quy bơ Danisa 454g",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-02-03T03:08:37.248Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Socola Sữa Cadbury Dairy Milk 160G",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-02-03T03:09:06.456Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Socola Sữa Dairy Milk 160G",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Item name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-02-03T03:13:56.936Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Kit Kat Chocolate 35g",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-02-03T03:16:37.570Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Coca cola",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-02-03T03:18:03.252Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "Pepsi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-02-03T03:21:53.457Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "Pepsi không calo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-02-03T03:22:33.865Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "Sting đỏ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-02-03T03:22:56.449Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "Pepsi không calo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-02-03T03:27:23.186Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "Fanta hương cam",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-02-03T03:37:34.643Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "Red bull",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-02-03T04:00:13.624Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "22",
+    "object_repr": "Trà Xanh Không Độ Chanh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-02-04T00:53:55.027Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "Nước cam ép Twister",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-02-04T00:57:05.451Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "24",
+    "object_repr": "Mountain Dew Soda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-02-04T01:03:37.215Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "25",
+    "object_repr": "Osishi snack pho mai",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-02-04T01:11:37.050Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "26",
+    "object_repr": "Snack Swing Vị Bít Tết",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-02-04T02:00:42.032Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "27",
+    "object_repr": "Bánh quy Orion ChocoPie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-02-04T02:05:42.694Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "28",
+    "object_repr": "Bánh mì sandwich kẹp nhân",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-02-04T02:14:26.005Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "29",
+    "object_repr": "Xúc xích ăn liền",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-02-04T02:19:26.812Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "30",
+    "object_repr": "Thanh ngũ cốc Granola",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-02-04T02:22:40.968Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "31",
+    "object_repr": "Cơm nắm Onigiri",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-02-04T02:27:01.085Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "32",
+    "object_repr": "Sữa chua uống Yakult",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-02-04T02:27:31.754Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "31",
+    "object_repr": "Cơm nắm Onigiri",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-02-04T02:27:52.285Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "31",
+    "object_repr": "Cơm nắm Onigiri",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-02-04T02:28:56.164Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "29",
+    "object_repr": "Xúc xích ăn liền",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-02-04T03:01:48.523Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "33",
+    "object_repr": "Bánh bao nhỏ nhân thịt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-02-04T03:05:22.704Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "34",
+    "object_repr": "Mì tôm Hảo Hảo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-02-04T03:13:42.767Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "35",
+    "object_repr": "Nước ép trái cây",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-02-04T03:15:46.372Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "Bánh tráng trộn",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-02-04T03:40:01.749Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Tạ Quang Huy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-02-04T04:02:07.562Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Tạ Quang Huy",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-02-04T04:04:34.437Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Hoàng Quang Chiến",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-02-04T04:08:38.671Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Hoàng Quang Chiến",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-02-04T04:09:00.010Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Hoàng Quang Chiến",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-02-04T04:09:58.948Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Tạ Quang Huy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-02-04T04:11:51.663Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Walter White",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-02-04T04:12:16.323Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Jesse Pinkman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-02-04T04:13:17.036Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Walter White",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-02-04T04:13:25.084Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Jesse Pinkman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-02-04T04:15:40.680Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Walter White",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-02-04T04:15:48.162Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Jesse Pinkman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-02-04T04:22:10.344Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Walter White",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-02-04T04:22:16.715Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Jesse Pinkman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-02-10T08:11:30.095Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "bánh cuốn",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-02-10T08:12:10.725Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "Bánh tráng trộn",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-02-10T08:19:46.306Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "Bánh tráng trộn",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-02-10T08:20:22.320Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "37",
+    "object_repr": "Hoàng Nhật minh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-02-10T08:20:57.334Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "37",
+    "object_repr": "Hoàng Nhật minh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-02-28T10:12:33.486Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-02-28T10:12:33.486Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-02-28T10:12:33.486Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-02-28T10:12:33.486Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-02-28T10:12:33.486Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-02-28T10:12:33.486Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-03-01T09:20:50.496Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Saul Goodman",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-03-01T09:22:30.966Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Saul Goodman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-03-01T09:23:07.024Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Saul Goodman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-03-01T09:23:20.363Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Saul Goodman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-03-01T09:23:34.026Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Saul Goodman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-03-04T09:09:17.623Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Giáp Minh Anh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-03-04T09:09:17.623Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Tạ Quang Huy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-03-04T09:21:51.835Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "Tạ Quang Huy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-03-04T09:57:44.836Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "Tạ Quang Huy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-03-04T10:15:22.349Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "Tạ Huy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-03-05T08:33:08.667Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "Tạ Quang Huy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-03-07T00:27:12.930Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "Tạ Huy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-03-07T00:42:32.780Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "Tạ Huy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-03-07T00:42:32.780Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "Tạ Quang Huy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-04-13T10:32:09.881Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Anh Độ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User name\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-04-13T10:32:26.298Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Anh Quỳnh",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User name\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-04-13T10:32:39.705Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Anh Tùng",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User name\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$npt1sedaR1DHdH2I8kalsG$V+kJsnW9l6FGwwNQ4C9DreYWkQVUUPcP2IpZnd/aD9o=",
+    "last_login": "2025-04-13T10:30:27.218Z",
+    "is_superuser": true,
+    "username": "Admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-01-22T08:14:08.411Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$uLQSp15D0rzGDDOeLls1IU$5bfUFf3oEY2ykITqq9MrEFb6QidaOftXu69wQJ3xjyk=",
+    "last_login": "2025-03-07T01:21:39.757Z",
+    "is_superuser": false,
+    "username": "Tạ Quang Huy",
+    "first_name": "",
+    "last_name": "",
+    "email": "quanghuyta3010@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-07T00:42:50.199Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Xy9RVA0fWvRPGCa1kXaGuZ$u+N3U5BDVmpXwBHSLffWgtyEKGkMqFdEtS8EV4AmWZo=",
+    "last_login": "2025-03-11T03:41:35.492Z",
+    "is_superuser": false,
+    "username": "Tạ Huy",
+    "first_name": "",
+    "last_name": "",
+    "email": "quanghuyta301004@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-11T03:41:22.674Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "42mi4jaj1zoss0s5xm5h8vci9hibsjts",
+  "fields": {
+    "session_data": ".eJx9zrFugzAQBuBXsW6GYAc7Acb2ATKkY6TKNgexig0xNhGKePfGSze6nE736z99L9DSB2hewNOIM3rTQuPiMGQw-bGNOnynC8_ASYvQwGU2892Qq5P6h3zdIqUdt-RTrpDBI0oXTFihYaludCqId2Cs7NNeWGyNLExAOxeCKdodK0Y5cs0F8rY-dZWiSrbnsuYi92jHBVWfTx4Xg8_D5HrYsvfHf63iz_qReMjcnTziSq6jHgdJLh5HstwiQ63IIp3ZhbM9eVWX_FRRxsrjmecBQ852sNv2C9uRcdM:1u4UR6:cjr4hWKYTnwYBnbbKcdphjL823siCYUfujUkXYQoRYY",
+    "expire_date": "2025-04-29T00:46:00.607Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "de3lsjsyuzfefge0m15ue3z0fs9c7hhp",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQBe_iOrK8xosNZfqcAa137ZgkAolPhbh7QKJI2jfzZlMdrUvp1jlNXS-qVUHdfrdI_E7DCeRFw3PUPA7L1Ed9Kvqis36Mkj73y_0LFJrL8WYSriEwOWPR-SaTMabytRfMkJvsAAhthBxsyoixErTQOAjWAArTEWWaFtVu-_4FFrw6rQ:1tpkEe:uhSNxDGZRpLOdN9RlabGxlIAOvUThzE7XJPDc3Nr7yA",
+    "expire_date": "2025-03-19T08:36:12.048Z"
+  }
+},
+{
+  "model": "app.contact",
+  "pk": 1,
+  "fields": {
+    "name": "Tạ Huy",
+    "email": "quanghuyta301004@gmail.com",
+    "phone": "0813104318",
+    "message": "Chúng tôi muốn hợp tác"
+  }
+},
+{
+  "model": "app.contact",
+  "pk": 2,
+  "fields": {
+    "name": "Hoàng Quốc Anh",
+    "email": "dtc225200628@ictu.edu.vn",
+    "phone": "0813104318",
+    "message": "Chúng tôi muốn hợp tác"
+  }
+},
+{
+  "model": "app.contact",
+  "pk": 3,
+  "fields": {
+    "name": "Bùi Bảo Ngọc",
+    "email": "quanghuyta301004@gmail.com",
+    "phone": "2222223534",
+    "message": "Chúng tôi muốn hợp tác"
+  }
+},
+{
+  "model": "app.contact",
+  "pk": 4,
+  "fields": {
+    "name": "Tạ Huy",
+    "email": "quanghuyta301004@gmail.com",
+    "phone": "0813104318",
+    "message": "Chúng tôi muốn hợp tác"
+  }
+},
+{
+  "model": "app.contact",
+  "pk": 5,
+  "fields": {
+    "name": "Giáp Minh Anh",
+    "email": "admin@gmail.com",
+    "phone": "0923434234",
+    "message": "Chúng tôi muốn hợp tác"
+  }
+},
+{
+  "model": "app.itemlist",
+  "pk": 1,
+  "fields": {
+    "Category_name": "Bim Bim"
+  }
+},
+{
+  "model": "app.itemlist",
+  "pk": 2,
+  "fields": {
+    "Category_name": "Bánh kẹo"
+  }
+},
+{
+  "model": "app.itemlist",
+  "pk": 3,
+  "fields": {
+    "Category_name": "Nước giải khát"
+  }
+},
+{
+  "model": "app.itemlist",
+  "pk": 4,
+  "fields": {
+    "Category_name": "Đồ ăn nhẹ"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 3,
+  "fields": {
+    "name": "Osishi Snack Hành",
+    "description": "Osishi Snack Hành là món snack giòn tan, mang vị hành thơm ngon, đậm đà, dễ ăn và hấp dẫn.",
+    "price": 5,
+    "Category": 1,
+    "image": "items/8934803026788-1-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 4,
+  "fields": {
+    "name": "Osishi Snack Tôm Cay",
+    "description": "Osishi Snack Tôm Cay là món snack giòn tan, vị cay đặc trưng từ tôm khô và gia vị, mang đến hương vị đậm đà, hấp dẫn.",
+    "price": 5,
+    "Category": 1,
+    "image": "items/51b0f28104e4c45e4d96f8b0bad73945-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 5,
+  "fields": {
+    "name": "Bánh quy Socola Oreo vị vani",
+    "description": "Bánh quy Socola Oreo vị vani gồm hai lớp bánh socola giòn xốp, kẹp giữa là lớp kem vani ngọt ngào, thơm mịn",
+    "price": 51,
+    "Category": 2,
+    "image": "items/8934680113274-tet-1-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 6,
+  "fields": {
+    "name": "Bánh quy sữa Cosy",
+    "description": "Bánh quy sữa Cosy giòn tan, thơm ngọt vị sữa, mang đến trải nghiệm nhẹ nhàng và ngon miệng, thích hợp cho mọi bữa ăn nhẹ.",
+    "price": 55,
+    "Category": 2,
+    "image": "items/Banh-Cosy-Marie-48g-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 7,
+  "fields": {
+    "name": "Osishi Snack Bắp Ngọt",
+    "description": "Osishi Snack Bắp Ngọt giòn rụm, thơm lừng vị bắp ngọt tự nhiên, mang đến hương vị nhẹ nhàng và hấp dẫn.",
+    "price": 5,
+    "Category": 1,
+    "image": "items/1-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 8,
+  "fields": {
+    "name": "Osishi Snack Bắp Vị Phô Mai",
+    "description": "Osishi Snack Bắp Vị Phô Mai giòn tan, đậm đà vị phô mai béo ngậy kết hợp với hương bắp thơm ngon. Món ăn vặt tuyệt vời",
+    "price": 5,
+    "Category": 1,
+    "image": "items/8934803044812-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 9,
+  "fields": {
+    "name": "Osishi Snack Bí Đỏ",
+    "description": "Osishi Snack Bí Đỏ giòn rụm, thơm ngon với hương vị tự nhiên của bí đỏ. Món ăn vặt bổ dưỡng, dễ ăn và hấp dẫn cho mọi lứa tuổi.",
+    "price": 5,
+    "Category": 1,
+    "image": "items/snack-bi-do-vi-bo-nuong-oishi-goi-39g-202205171429476674-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 10,
+  "fields": {
+    "name": "Osishi Snack Cua",
+    "description": "Osishi Snack Cua Vị Xốt Chua Ngọt giòn tan, đậm đà vị cua kết hợp xốt chua ngọt, mang đến hương vị thơm ngon",
+    "price": 5,
+    "Category": 1,
+    "image": "items/snack-oishi-cua-vi-sot-chua-ngot-35g-1-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 11,
+  "fields": {
+    "name": "Osishi Snack Indo chips",
+    "description": "Osishi Snack Indo Chips giòn rụm, mang hương vị đậm đà đặc trưng, là món ăn vặt thú vị, phù hợp mọi lúc mọi nơi.",
+    "price": 5,
+    "Category": 1,
+    "image": "items/Oishi-banh-phong-muc-Indo-chips-110g-01-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 12,
+  "fields": {
+    "name": "Bánh Trứng Tipo",
+    "description": "Bánh trứng Tipo giòn xốp, phủ lớp trứng béo thơm, tan ngay trong miệng, thích hợp ăn vặt hoặc dùng kèm trà.",
+    "price": 54,
+    "Category": 2,
+    "image": "items/tipo-trung-250.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 13,
+  "fields": {
+    "name": "Bánh quy bơ Danisa 454g",
+    "description": "Bánh quy Danisa giòn bơ,thơm ngậy,hương vị đặc trưng của Đan Mạch. Thích hợp làm quà tặng hoặc thưởng thức cùng trà",
+    "price": 149,
+    "Category": 2,
+    "image": "items/danisa.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 14,
+  "fields": {
+    "name": "Socola Sữa Dairy Milk 160G",
+    "description": "Socola sữa Cadbury Dairy Milk mềm mịn, ngọt ngào, tan chảy trong miệng với hương vị sữa thơm béo đặc trưng.",
+    "price": 82,
+    "Category": 2,
+    "image": "items/7622210410474-tet-1-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 15,
+  "fields": {
+    "name": "Kit Kat Chocolate 35g",
+    "description": "Kit Kat Chocolate có lớp wafer giòn rụm phủ socola sữa thơm béo, tạo cảm giác bẻ giòn vui thích khi thưởng thức.",
+    "price": 20,
+    "Category": 2,
+    "image": "items/9556001027252-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 16,
+  "fields": {
+    "name": "Coca cola",
+    "description": "Coca-Cola có hương vị ngọt dịu, gas sảng khoái, mang đến cảm giác mát lạnh và tràn đầy năng lượng.",
+    "price": 10,
+    "Category": 3,
+    "image": "items/Nước-giải-khát-Coca-Cola-lon-250ml-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 17,
+  "fields": {
+    "name": "Pepsi",
+    "description": "Pepsi có vị ngọt đậm, gas mạnh, mang đến cảm giác sảng khoái và tràn đầy năng lượng, thích hợp giải khát mọi lúc.",
+    "price": 10,
+    "Category": 3,
+    "image": "items/589620f2-a149-47a1-8a4d-68a4bc9608d5-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 18,
+  "fields": {
+    "name": "Pepsi không calo",
+    "description": "Pepsi Không Calo giữ nguyên hương vị đậm đà, gas mạnh sảng khoái, không đường, thích hợp cho người muốn giảm lượng calo.",
+    "price": 10,
+    "Category": 3,
+    "image": "items/nuoc_ngot_pepsi_khong_calo_lon_320ml_ba2ea3f8083a4693b2559e209a5bfb03_master-remov_uC50wPt.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 19,
+  "fields": {
+    "name": "Sting đỏ",
+    "description": "Sting đỏ có vị chua ngọt nhẹ, gas mạnh, mang đến cảm giác mát lạnh và sảng khoái, phù hợp cho những ngày nóng",
+    "price": 10,
+    "Category": 3,
+    "image": "items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 20,
+  "fields": {
+    "name": "Fanta hương cam",
+    "description": "Nước ngọt Fanta hương cam có vị ngọt thanh, chua nhẹ, với hương cam tươi mát, mang lại cảm giác sảng khoái.",
+    "price": 10,
+    "Category": 3,
+    "image": "items/18-55918f9b-1d05-41e3-ba21-8fe883e5128f-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 21,
+  "fields": {
+    "name": "Red bull",
+    "description": "Red Bull có vị ngọt nhẹ, gas mạnh, cung cấp năng lượng nhanh chóng, giúp tăng cường sự tỉnh táo và tập trung.",
+    "price": 12,
+    "Category": 3,
+    "image": "items/P06515_1_l-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 22,
+  "fields": {
+    "name": "Trà Xanh Không Độ Chanh",
+    "description": "Trà chanh không độ vị chua nhẹ, trà thanh mát, sảng khoái mà không có đường, phù hợp với người yêu thích đồ uống nhẹ.",
+    "price": 10,
+    "Category": 3,
+    "image": "items/Tra-Xanh-Khong-Do-Chanh-455ml-01-1-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 23,
+  "fields": {
+    "name": "Nước cam ép Twister",
+    "description": "Nước cam ép Twister có vị chua ngọt hài hòa, hương cam tươi mát, mang đến cảm giác sảng khoái và giàu vitamin C.",
+    "price": 10,
+    "Category": 3,
+    "image": "items/nuoc-cam-ep-twister-tropicana-320ml-202312261639084845-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 24,
+  "fields": {
+    "name": "Mountain Dew Soda",
+    "description": "Mountain Dew Soda có vị chanh thanh mát, gas mạnh sảng khoái, mang đến năng lượng và cảm giác tươi mới.",
+    "price": 10,
+    "Category": 3,
+    "image": "items/Mountain-Dew-Soda-Pop-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 25,
+  "fields": {
+    "name": "Osishi snack pho mai",
+    "description": "Osishi Snack Phô Mai giòn xốp, đậm vị phô mai béo ngậy, tan ngay trong miệng, thích hợp để ăn vặt mọi lúc.",
+    "price": 5,
+    "Category": 1,
+    "image": "items/914475612eee7bf39810880f06218724-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 26,
+  "fields": {
+    "name": "Snack Swing Vị Bít Tết",
+    "description": "Snack Swing Vị Bít Tết giòn rụm, đậm đà hương vị bít tết thơm ngon, mang đến trải nghiệm ăn vặt hấp dẫn",
+    "price": 5,
+    "Category": 1,
+    "image": "items/8936036021745-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 27,
+  "fields": {
+    "name": "Bánh quy Orion ChocoPie",
+    "description": "Bánh quy Orion ChocoPie mềm xốp, nhân marshmallow dẻo ngọt, phủ lớp socola thơm béo, tạo hương vị hấp dẫn.",
+    "price": 50,
+    "Category": 2,
+    "image": "items/8936036020380-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 28,
+  "fields": {
+    "name": "Bánh mì sandwich kẹp nhân",
+    "description": "Bánh mì sandwich kẹp nhân mềm thơm, kết hợp cùng nhân đa dạng như thịt, trứng, hoặc phô mai, tiện lợi và ngon miệng.",
+    "price": 20,
+    "Category": 4,
+    "image": "items/sandwich-kep-thit-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 29,
+  "fields": {
+    "name": "Xúc xích ăn liền",
+    "description": "Xúc xích ăn liền CP dai giòn, đậm đà hương vị, tiện lợi ăn ngay hoặc chế biến thành các món khác như nướng, xào.",
+    "price": 10,
+    "Category": 4,
+    "image": "items/xuc-xich-heo-tiet-trung-cp-goi-200g-202208220808364009-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 30,
+  "fields": {
+    "name": "Thanh ngũ cốc Granola",
+    "description": "Thanh ngũ cốc Granola giòn thơm, kết hợp yến mạch, hạt và mật ong, giàu dinh dưỡng, tiện lợi cho bữa ăn nhẹ",
+    "price": 15,
+    "Category": 4,
+    "image": "items/0vsUiOgny8-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 31,
+  "fields": {
+    "name": "Cơm nắm Onigiri",
+    "description": "Cơm nắm Onigiri là món ăn nhẹ tiện lợi, được làm từ cơm mềm, kẹp nhân cá ngừ, dưa muối, bọc bên ngoài bằng rong biển.",
+    "price": 20,
+    "Category": 4,
+    "image": "items/124261479_672787330073160_5852416331728174598_n-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 32,
+  "fields": {
+    "name": "Sữa chua uống Yakult",
+    "description": "Sữa chua uống Yakult có vị ngọt thanh, mịn màng, giàu probiotic, tốt cho hệ tiêu hóa và giúp cơ thể khỏe mạnh.",
+    "price": 20,
+    "Category": 4,
+    "image": "items/sua-chua-uong-yakult-1_1-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 33,
+  "fields": {
+    "name": "Bánh bao nhỏ nhân thịt",
+    "description": "Bánh bao nhỏ nhân thịt mềm mịn, nhân thịt xay đậm đà, thơm ngon, thích hợp làm bữa sáng hoặc ăn vặt",
+    "price": 20,
+    "Category": 4,
+    "image": "items/8935058990756-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 34,
+  "fields": {
+    "name": "Mì tôm Hảo Hảo",
+    "description": "Mì tôm Hảo Hảo có sợi mì mềm dai, gia vị đậm đà, dễ chế biến, mang đến bữa ăn nhanh chóng và ngon miệng.",
+    "price": 40,
+    "Category": 4,
+    "image": "items/8934563305048-removebg-preview.png"
+  }
+},
+{
+  "model": "app.item",
+  "pk": 35,
+  "fields": {
+    "name": "Nước ép trái cây",
+    "description": "Nước ép trái cây đóng hộp có vị ngọt tự nhiên, hương trái cây tươi mát, tiện lợi và dễ dàng thưởng thức bất cứ lúc nào.",
+    "price": 35,
+    "Category": 4,
+    "image": "items/nuoc.png"
+  }
+},
+{
+  "model": "app.feedback",
+  "pk": 1,
+  "fields": {
+    "User_name": "Anh Tùng",
+    "Description": "Chất lượng sản phẩm tuyệt vời: Món ăn vặt rất ngon, đóng gói cẩn thận và bảo quản tốt khi giao hàng. Mình sẽ tiếp tục mua hàng tại đây. Và tiếp tục ủng hộ cho shop",
+    "Image": "feedback_images/artworks-i0nLuYBs0dR2nsn4-AkxVlg-t500x500.jpg"
+  }
+},
+{
+  "model": "app.feedback",
+  "pk": 2,
+  "fields": {
+    "User_name": "Anh Quỳnh",
+    "Description": "Dễ sử dụng và tiện lợi: Trang web rất dễ điều hướng, giao diện rõ ràng và các sản phẩm được phân loại hợp lý. Mình dễ dàng tìm thấy món ăn yêu thích.",
+    "Image": "feedback_images/3_Phan_Manh_Quynh-1710926460222.jpeg"
+  }
+},
+{
+  "model": "app.feedback",
+  "pk": 3,
+  "fields": {
+    "User_name": "Anh Độ",
+    "Description": "Trang web có giao diện bắt mắt, dễ sử dụng, giúp khách hàng dễ dàng tìm kiếm và lựa chọn sản phẩm. Danh mục đồ ăn vặt phong phú, hình ảnh rõ ràng, thông tin chi tiết. Quá trình đặt hàng nhanh chóng",
+    "Image": "feedback_images/do-mixi-6_yfxY7nd.png"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 7,
+  "fields": {
+    "user": 1,
+    "name": "Tạ Huy",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Thành phố Thái Nguyên",
+    "address": "Số nhà 75 Đường xuân hòa Thành phố Thái Nguyên",
+    "note": "Hàng dễ vỡ giao hàng cẩn thận",
+    "payment_method": "cash",
+    "created_at": "2025-02-28T10:13:09.063Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 8,
+  "fields": {
+    "user": 1,
+    "name": "Tạ Huy",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Phổ Yên",
+    "address": "Số nhà 75 Đường xuân hòa Thành phố Thái Nguyên",
+    "note": "",
+    "payment_method": "cash",
+    "created_at": "2025-03-01T06:48:03.596Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 9,
+  "fields": {
+    "user": 1,
+    "name": "Tạ Huy",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Đại Từ",
+    "address": "hợp tác",
+    "note": "",
+    "payment_method": "qr",
+    "created_at": "2025-03-01T06:49:09.135Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 10,
+  "fields": {
+    "user": 1,
+    "name": "Tạ Huy",
+    "phone": "0813104318",
+    "province": "An Giang",
+    "district": "Huyện Châu Phú",
+    "address": "63F",
+    "note": "",
+    "payment_method": "cash",
+    "created_at": "2025-03-01T07:27:26.113Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 11,
+  "fields": {
+    "user": 1,
+    "name": "Tạ Huy",
+    "phone": "0813104318",
+    "province": "An Giang",
+    "district": "Huyện Châu Phú",
+    "address": "63F",
+    "note": "",
+    "payment_method": "cash",
+    "created_at": "2025-03-01T07:28:23.420Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 12,
+  "fields": {
+    "user": 1,
+    "name": "Tạ Huy",
+    "phone": "01234235",
+    "province": "Thái Nguyên",
+    "district": "Sông Công",
+    "address": "Hạ long ",
+    "note": "",
+    "payment_method": "cash",
+    "created_at": "2025-03-01T07:43:09.432Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 13,
+  "fields": {
+    "user": 1,
+    "name": "Hoàng Quang Chiến",
+    "phone": "0923434234",
+    "province": "Lạng Sơn",
+    "district": "Huyện Chi Lăng",
+    "address": "63F",
+    "note": "",
+    "payment_method": "qr",
+    "created_at": "2025-03-01T08:41:15.391Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 14,
+  "fields": {
+    "user": 1,
+    "name": "Hoàng Quang Chiến",
+    "phone": "0923434234",
+    "province": "Lạng Sơn",
+    "district": "Huyện Chi Lăng",
+    "address": "63F",
+    "note": "",
+    "payment_method": "qr",
+    "created_at": "2025-03-01T08:51:19.340Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 15,
+  "fields": {
+    "user": 1,
+    "name": "Hoàng Quang Chiến",
+    "phone": "34234234234",
+    "province": "Thái Nguyên",
+    "district": "Sông Công",
+    "address": "hợp tác",
+    "note": "",
+    "payment_method": "cash",
+    "created_at": "2025-03-01T08:58:47.334Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 16,
+  "fields": {
+    "user": 11,
+    "name": "Huy Tạ",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Chọn quận/huyện",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "khoog có",
+    "payment_method": "cash",
+    "created_at": "2025-03-07T00:43:26.702Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 17,
+  "fields": {
+    "user": 1,
+    "name": "Huy Tạ",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Chọn quận/huyện",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "Khôg có",
+    "payment_method": "cash",
+    "created_at": "2025-03-10T14:54:31.504Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 18,
+  "fields": {
+    "user": 1,
+    "name": "Huy Tạ",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Chọn quận/huyện",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "Khôg có",
+    "payment_method": "cash",
+    "created_at": "2025-03-10T15:04:36.364Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 19,
+  "fields": {
+    "user": 1,
+    "name": "Huy Tạ",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Chọn quận/huyện",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "không có",
+    "payment_method": "cash",
+    "created_at": "2025-03-10T15:04:58.853Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 20,
+  "fields": {
+    "user": 1,
+    "name": "Huy Tạ",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Chọn quận/huyện",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "Không có",
+    "payment_method": "qr",
+    "created_at": "2025-03-10T15:08:00.314Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 21,
+  "fields": {
+    "user": 1,
+    "name": "Huy Tạ",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Chọn quận/huyện",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "Không có",
+    "payment_method": "qr",
+    "created_at": "2025-03-10T15:08:46.765Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 22,
+  "fields": {
+    "user": null,
+    "name": "Huy Tạ",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Chọn quận/huyện",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "Không có",
+    "payment_method": "cash",
+    "created_at": "2025-03-11T03:29:56.585Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 23,
+  "fields": {
+    "user": 12,
+    "name": "Giáp Minh Anh ",
+    "phone": "0988882223",
+    "province": "An Giang",
+    "district": "Huyện Châu Phú",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "Không có",
+    "payment_method": "cash",
+    "created_at": "2025-03-11T03:42:26.245Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 24,
+  "fields": {
+    "user": null,
+    "name": "Huy Tạ",
+    "phone": "0813104318",
+    "province": "Thái Nguyên",
+    "district": "Chọn quận/huyện",
+    "address": "Tổ 24 Phường Phan Đình Phùng Tp Thái Nguyên",
+    "note": "ko có",
+    "payment_method": "qr",
+    "created_at": "2025-03-17T23:50:40.446Z"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 7,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "1",
+    "price": "20",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 7,
+    "product": "Pepsi",
+    "image": "/media/items/589620f2-a149-47a1-8a4d-68a4bc9608d5-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 7,
+    "product": "Sting đỏ",
+    "image": "/media/items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 8,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "1",
+    "price": "20",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 8,
+    "product": "Pepsi",
+    "image": "/media/items/589620f2-a149-47a1-8a4d-68a4bc9608d5-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 8,
+    "product": "Sting đỏ",
+    "image": "/media/items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 7,
+  "fields": {
+    "order": 9,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "2",
+    "price": "20",
+    "total": "40"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 9,
+    "product": "Pepsi",
+    "image": "/media/items/589620f2-a149-47a1-8a4d-68a4bc9608d5-removebg-preview.png",
+    "quantity": "2",
+    "price": "10",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 9,
+    "product": "Sting đỏ",
+    "image": "/media/items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png",
+    "quantity": "2",
+    "price": "10",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 10,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "1",
+    "price": "20",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 10,
+    "product": "Sting đỏ",
+    "image": "/media/items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 11,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "1",
+    "price": "20",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 11,
+    "product": "Sting đỏ",
+    "image": "/media/items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 12,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "1",
+    "price": "20",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 12,
+    "product": "Sting đỏ",
+    "image": "/media/items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 13,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "1",
+    "price": "20",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 13,
+    "product": "Sting đỏ",
+    "image": "/media/items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 15,
+    "product": "Osishi Snack Tôm Cay",
+    "image": "/media/items/51b0f28104e4c45e4d96f8b0bad73945-removebg-preview.png",
+    "quantity": "2",
+    "price": "5",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 15,
+    "product": "Red bull",
+    "image": "/media/items/P06515_1_l-removebg-preview.png",
+    "quantity": "2",
+    "price": "12",
+    "total": "24"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 15,
+    "product": "Pepsi",
+    "image": "/media/items/589620f2-a149-47a1-8a4d-68a4bc9608d5-removebg-preview.png",
+    "quantity": "2",
+    "price": "10",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 16,
+    "product": "Osishi Snack Tôm Cay",
+    "image": "/media/items/51b0f28104e4c45e4d96f8b0bad73945-removebg-preview.png",
+    "quantity": "2",
+    "price": "5",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 22,
+  "fields": {
+    "order": 16,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "2",
+    "price": "20",
+    "total": "40"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 23,
+  "fields": {
+    "order": 17,
+    "product": "Osishi Snack Bắp Ngọt",
+    "image": "/media/items/1-removebg-preview.png",
+    "quantity": "1",
+    "price": "5",
+    "total": "5"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 24,
+  "fields": {
+    "order": 17,
+    "product": "Bánh quy sữa Cosy",
+    "image": "/media/items/Banh-Cosy-Marie-48g-removebg-preview.png",
+    "quantity": "1",
+    "price": "55",
+    "total": "55"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 25,
+  "fields": {
+    "order": 17,
+    "product": "Osishi Snack Tôm Cay",
+    "image": "/media/items/51b0f28104e4c45e4d96f8b0bad73945-removebg-preview.png",
+    "quantity": "1",
+    "price": "5",
+    "total": "5"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 26,
+  "fields": {
+    "order": 19,
+    "product": "Osishi Snack Tôm Cay",
+    "image": "/media/items/51b0f28104e4c45e4d96f8b0bad73945-removebg-preview.png",
+    "quantity": "1",
+    "price": "5",
+    "total": "5"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 27,
+  "fields": {
+    "order": 19,
+    "product": "Socola Sữa Dairy Milk 160G",
+    "image": "/media/items/7622210410474-tet-1-removebg-preview.png",
+    "quantity": "1",
+    "price": "82",
+    "total": "82"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 28,
+  "fields": {
+    "order": 20,
+    "product": "Osishi Snack Bắp Vị Phô Mai",
+    "image": "/media/items/8934803044812-removebg-preview.png",
+    "quantity": "1",
+    "price": "5",
+    "total": "5"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 29,
+  "fields": {
+    "order": 20,
+    "product": "Bánh quy bơ Danisa 454g",
+    "image": "/media/items/danisa.png",
+    "quantity": "1",
+    "price": "149",
+    "total": "149"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 30,
+  "fields": {
+    "order": 21,
+    "product": "Osishi Snack Bắp Vị Phô Mai",
+    "image": "/media/items/8934803044812-removebg-preview.png",
+    "quantity": "1",
+    "price": "5",
+    "total": "5"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 31,
+  "fields": {
+    "order": 21,
+    "product": "Bánh quy bơ Danisa 454g",
+    "image": "/media/items/danisa.png",
+    "quantity": "1",
+    "price": "149",
+    "total": "149"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 32,
+  "fields": {
+    "order": 22,
+    "product": "Socola Sữa Dairy Milk 160G",
+    "image": "/media/items/7622210410474-tet-1-removebg-preview.png",
+    "quantity": "1",
+    "price": "82",
+    "total": "82"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 33,
+  "fields": {
+    "order": 22,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "1",
+    "price": "20",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 34,
+  "fields": {
+    "order": 22,
+    "product": "Sting đỏ",
+    "image": "/media/items/6-lon-nuoc-tang-luc-sting-huong-dau-320ml-202111061733178279-removebg-preview.png",
+    "quantity": "1",
+    "price": "10",
+    "total": "10"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 35,
+  "fields": {
+    "order": 23,
+    "product": "Osishi Snack Tôm Cay",
+    "image": "/media/items/51b0f28104e4c45e4d96f8b0bad73945-removebg-preview.png",
+    "quantity": "1",
+    "price": "5",
+    "total": "5"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 36,
+  "fields": {
+    "order": 23,
+    "product": "Kit Kat Chocolate 35g",
+    "image": "/media/items/9556001027252-removebg-preview.png",
+    "quantity": "1",
+    "price": "20",
+    "total": "20"
+  }
+},
+{
+  "model": "app.orderitem",
+  "pk": 37,
+  "fields": {
+    "order": 24,
+    "product": "Osishi Snack Tôm Cay",
+    "image": "/media/items/51b0f28104e4c45e4d96f8b0bad73945-removebg-preview.png",
+    "quantity": "3",
+    "price": "5",
+    "total": "15"
+  }
+}
+]
